@@ -56,6 +56,15 @@ body {
     margin-bottom: 25px;
 }
 
+.description {
+    font-size: 11px;
+    color: #444;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .img-container {
     position: relative;
 }
@@ -99,11 +108,10 @@ body {
 .form-advanced > form {
     font-size: 13px;
     display: grid;
-    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-columns: 0.15fr 0.5fr 0.3fr;
     row-gap: 15px;
-    /* column-gap: 5px; */
     justify-self: center;
-    max-width: 750px;
+    max-width: 1140px;
 }
 
 .form-advanced > form > input {
@@ -118,6 +126,21 @@ body {
     border: none;
     box-shadow: 0 1px 6px rgb(56 128 242 / 50%);
     outline: 1px solid #3079ed;
+}
+
+.top-content-advanced {
+    width: 100%;
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: 0.15fr 0.5fr 0.3fr;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#todo-description {
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .grid-item {

@@ -26,22 +26,36 @@
             <div id="title">
                 <h1>Advanced Search</h1>
             </div>
-            <div class="content-advanced">
-                <p>Find pages with...</p>
-                <div class="form-advanced">
-                    <form action="https://www.google.com/search">
-                        <label for="as_q" class="grid-item">all these words:</label>
-                        <input type="text" name="as_q" id="as_q" class="grid-item">
-                        <label for="as_epq" class="grid-item">this exact word or phrase:</label>
-                        <input type="text" name="as_epq" id="as_epq" class="grid-item">
-                        <label for="as_oq" class="grid-item">any of these words:</label>
-                        <input type="text" name="as_oq" id="as_oq" class="grid-item">
-                        <label for="as_eq" class="grid-item">none of these words:</label>
-                        <input type="text" name="as_eq" id="as_eq" class="grid-item"><br>
-                        <div class="input-submit grid-item"><input type="submit" value="Advanced Search"></div>
-                    </form>
+                <div class="content-advanced">
+                    <div class="top-content-advanced">
+                        <p>Find pages with...</p>
+                        <div>&nbsp;</div>
+                        <p id="todo-description">To do this in the search box.</p>
+                    </div>
+                    <div class="form-advanced">
+                        <form action="https://www.google.com/search">
+                            <label for="as_q" class="grid-item">all these words:</label>
+                            <input type="text" name="as_q" id="as_q" class="grid-item">
+                            <div class="description">Type the important words: tri-colour rat terrier</div>
+                            <label for="as_epq" class="grid-item">this exact word or phrase:</label>
+                            <input type="text" name="as_epq" id="as_epq" class="grid-item">
+                            <div class="description">Put exact words in quotes: "rat terrier"</div>
+                            <label for="as_oq" class="grid-item">any of these words:</label>
+                            <input type="text" name="as_oq" id="as_oq" class="grid-item">
+                            <div class="description">Type OR between all the words you want: miniature OR standard</div>
+                            <label for="as_eq" class="grid-item">none of these words:</label>
+                            <input type="text" name="as_eq" id="as_eq" class="grid-item">
+                            <div class="description">Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span></div>
+                            <div>&nbsp;</div>
+                            <div class="input-submit grid-item"><input type="submit" value="Advanced Search"></div>
+                        </form>
+                    </div>
                 </div>
-            </div>
+                <div class="description-content-advanced">
+                    
+                    <div class="form-descriptions">
+                    </div>
+                </div>
         </main>
         <footer>
             <div class="footer">
