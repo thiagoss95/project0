@@ -147,19 +147,36 @@ body {
     align-self: center;
 }
 
-#queryInput {
+#query-input-div {
     border-radius: 50px;
-    font-size: 16px;
     padding: 10px;
     padding-left: 20px;
     width: 100%;
     border: 1px solid #dfe1e5;
+    display: flex;
 }
 
-#queryInput:focus {
+#query-input-div:hover {
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
     border-color: rgba(223,225,229,0);
     outline: none;
+}
+
+#query-input {
+    width: 100%;
+    padding-left: 15px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+#query-input:focus {
+    text-decoration: none;
+    background-color: #fff;
+}
+
+#loupe {
+    width: 16px;
 }
 
 .form-submit {

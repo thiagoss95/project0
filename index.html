@@ -26,11 +26,13 @@
                 </div>
                 <div class="form-container">
                     <form action="https://www.google.com/search">
-                        <input type="text" name="q" id="queryInput">
-                        <input type="text" name="btnI" value="I'm Feeling Lucky" hidden>
+                        <div id="query-input-div">
+                            <img src="loupe.png" alt="search loupe" id="loupe">
+                            <input type="text" name="q" id="query-input">
+                        </div>
                         <div class="form-submit">
                             <input type="submit" value="Google Search">
-                            <input type="submit" value="I'm Feeling Lucky">
+                            <input type="submit" value="I'm Feeling Lucky" name="btnI">
                         </div>
                     </form>
                 </div>
