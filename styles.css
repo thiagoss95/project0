@@ -260,3 +260,91 @@ a:link, a:visited {
     text-decoration: none;
     color: black;
 }
+
+@media only screen and (min-width: 1055px) and (max-width: 1070px) {
+    .top-content-advanced {
+        display: inline-block;
+    }
+    #todo-description {
+        margin-left: 160px;
+        margin-bottom: -15px;
+    }
+
+    .form-advanced > form {
+        /* grid-template-columns: 0.15fr 0.55fr 0.3fr; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .form-advanced > form > input {
+        width: 50%;
+    }
+
+    .form-advanced > form > label {
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .form-advanced {
+        position: relative;
+    }
+
+    .description {
+        width: 100%;
+        margin-left: 170px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .input-submit {
+        position: absolute;
+        right: 350px;
+        bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 1055px) {
+    .form-advanced > form {
+        display: grid;
+        grid-template-columns: 0.15fr 0.55fr;
+    }
+
+    .form-advanced > form > label {
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    .top-content-advanced > p {
+        width: 150px;
+    }
+    
+    .description {
+        display: none;
+    }
+
+    #todo-description {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 660px) {
+    .form-container {
+        width: 80%;
+        min-width: 385px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer {
+        height: 150px;
+    }
+
+    .content-advanced {
+        padding-left: 15px;
+    }
+}
